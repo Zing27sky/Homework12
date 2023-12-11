@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Author lTolstoy = new Author("Lev", "Tolstoy");
-        Book posleBala = new Book(lTolstoy,"Posle bala",1911);
+        Book posleBala = new Book(lTolstoy, "Posle bala", 1911);
         System.out.println(posleBala);
         System.out.println(posleBala.getName());
         System.out.println(posleBala.getAuthor());
@@ -9,8 +9,8 @@ public class Main {
         posleBala.setPublicationYear(1999);
         System.out.println(posleBala.getPublicationYear());
 
-        Author aPushkin = new Author("Alexandr","Pushkin");
-        Book prorok = new Book(aPushkin,"Prorok",1828);
+        Author aPushkin = new Author("Alexandr", "Pushkin");
+        Book prorok = new Book(aPushkin, "Prorok", 1828);
         System.out.println(prorok);
         System.out.println(prorok.getName());
         System.out.println(prorok.getAuthor());

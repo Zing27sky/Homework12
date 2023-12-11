@@ -8,19 +8,24 @@ public class Book {
         this.name = name;
         this.publicationYear = publicationYear;
     }
-    public Author getAuthor(){
+
+    public Author getAuthor() {
         return this.author;
     }
-    public String getName(){
+
+    public String getName() {
         return this.name;
     }
-    public int getPublicationYear(){
+
+    public int getPublicationYear() {
         return this.publicationYear;
     }
-    public void setPublicationYear(int Year){
+
+    public void setPublicationYear(int Year) {
         this.publicationYear = Year;
     }
-    public String toString(){
+
+    public String toString() {
         return this.name + ", " + this.author + ", " + this.publicationYear;
     }
 
