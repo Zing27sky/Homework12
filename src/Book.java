@@ -20,6 +20,9 @@ public class Book {
     public void setPublicationYear(int Year){
         this.publicationYear = Year;
     }
+    public String toString(){
+        return this.name + ", " + this.author + ", " + this.publicationYear;
+    }
 
 
 }
